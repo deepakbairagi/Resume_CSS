@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  line-height: 2;
+  font-size:5.625rem;
+  margin-top: 50px;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+h2{
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat',sans-serif;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat',sans-serif;
+}
+hr{
+ border: dotted #EAF6F6 6px;
+ border-bottom: none;
+ width: 4%;
+ margin: 100px auto;
+}
+.top-container{
+  background-color: #e3fdfd;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  position: relative;
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+  margin-top: 5%;
+  padding: 50px 0 20px;
+}
+.my-image{
+  border-radius: 50%;
+  height: 180px;
+  width:180px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top:50px;
+
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom:300px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.code-img{
+  border-radius: 50%;
+  width:30%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 0;
+}
+.intern-img{
+  width:25%;
+  float: right;
+}
+.certi-img{
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.linkedin-img{
+  background-color: white;
+  margin-right: 2%;
+}
+.git-img{
+  background-color: white;
+  margin-left: 2%;
+}
